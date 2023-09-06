@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+
+.panel-overlay-xx{
+    width: 500px;
+    background: var(--surface-50) !important;
+}
+
+.dropdown-footer{
+    margin: 0;
+  
+    padding: 1em;
+    background: lightgrey;
+    
+}
+
+.items{
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    width: 20px;
+}
+
+.chip{
+    background: var(--green-700) !important;
+    color: white !important;
+    padding: .4em 2 !important;
+}
