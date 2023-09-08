@@ -33,7 +33,7 @@ export class AppComponent implements OnInit {
 
   lazyLoadProducts(event: LazyLoadEvent) {
     // Load data of required page using the actual service
-    if (event.last! - event.first! === 13 && this.products.length < 1000) {
+    if (event.last! - event.first! === 13 && this.products.length < 1000 && !this.loading) {
       this.loadProducts(this.limit, this.products.length);
     }
   }
